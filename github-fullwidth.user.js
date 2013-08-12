@@ -7,7 +7,7 @@
 // @include       http://code.corp.surveymonkey.com/*
 // @include       http://github.com/*
 // @include       https://github.com/*
-// @updateURL	  https://github.com/djeebus/userscripts/github-fullwidth.user.js
+// @updateURL	  https://github.com/djeebus/userscripts/raw/master/github-fullwidth.user.js
 // ==/UserScript==
 
 var cssToggles = [
