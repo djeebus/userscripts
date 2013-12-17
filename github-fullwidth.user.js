@@ -1,7 +1,7 @@
 // ==UserScript==
 // @id            github_fullwidth
 // @name          Switches github.com windows to be full width
-// @version       1.1
+// @version       1.2
 // @author        djeebus
 // @description   Stretches all github windows to the full width of the browser window.
 // @include       http://code.corp.surveymonkey.com/*
@@ -15,7 +15,8 @@ var cssToggles = [
         selector: '#js-repo-pjax-container', 
         newCss: {
             'margin': '0 4em',
-            'width': 'auto'
+            'width': 'auto',
+            'float': 'none'
         }
 	},
     {
